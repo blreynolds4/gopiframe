@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="Upload Photos to Pi Frame"
+      content="Upload Photos to Pi Frame"
+    />
+    <title>Upload Photos to Pi Frame</title>
+  </head>
+  <body>
+    <h1>Select photos to upload</h1>
+    <form 
+      enctype="multipart/form-data"
+      action="/photos"
+      method="post">
+      <label for="uploadImages">Select photos:</label>
+      <input type="file" accept="image/*" id="uploadImages" name="uploadImages" multiple><br><br>
+      <input type="submit" value="Upload Photos">
+    </form> 
+  </body>
+</html>

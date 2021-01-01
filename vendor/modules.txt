@@ -1,0 +1,43 @@
+# github.com/davecgh/go-spew v1.1.0
+github.com/davecgh/go-spew/spew
+# github.com/dsoprea/go-exif v0.0.0-20201216222538-db167117f483
+## explicit
+github.com/dsoprea/go-exif
+# github.com/dsoprea/go-logging v0.0.0-20190624164917-c4f10aab7696
+github.com/dsoprea/go-logging
+# github.com/go-errors/errors v1.0.1
+github.com/go-errors/errors
+# github.com/golang/geo v0.0.0-20190916061304-5b978397cfec
+github.com/golang/geo/r1
+github.com/golang/geo/r2
+github.com/golang/geo/r3
+github.com/golang/geo/s1
+github.com/golang/geo/s2
+# github.com/gorilla/mux v1.8.0
+## explicit
+github.com/gorilla/mux
+# github.com/palantir/stacktrace v0.0.0-20161112013806-78658fd2d177
+## explicit
+github.com/palantir/stacktrace
+github.com/palantir/stacktrace/cleanpath
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
+# github.com/stretchr/testify v1.6.1
+## explicit
+github.com/stretchr/testify/assert
+github.com/stretchr/testify/require
+github.com/stretchr/testify/suite
+# github.com/unrolled/render v1.0.3
+## explicit
+github.com/unrolled/render
+# github.com/unrolled/secure v1.0.8
+## explicit
+# github.com/urfave/negroni v1.0.0
+## explicit
+github.com/urfave/negroni
+# golang.org/x/net v0.0.0-20191209160850-c0dbc17a3553
+golang.org/x/net/context
+# gopkg.in/yaml.v2 v2.2.7
+gopkg.in/yaml.v2
+# gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+gopkg.in/yaml.v3
