@@ -1,0 +1,14 @@
+[Unit]
+Description=Photo API Service to accept and backup photos
+After=network.target
+
+[Service]
+ExecStart=ENV=dev PORT=8080 VERSION=VERSION PHOTOS_PATH=/home/pi/NewPictures SHOW_PATH=/home/pi/Pictures UPLOAD_TAG=uploadImages UI_PATH=./public ./photopi-api
+WorkingDirectory=/home/pi/gopiframe
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
